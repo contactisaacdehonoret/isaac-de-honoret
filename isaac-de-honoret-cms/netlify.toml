@@ -1,0 +1,13 @@
+[build]
+  publish = "."
+  command = """
+    echo '[' > content/artworks-index.json && \
+    first=true && \
+    for f in content/artworks/*.json; do \
+      [ -f "$f" ] || continue; \
+      name=$(basename "$f" .json); \
+      if [ "$first" = true ]; then first=false; else printf ',' >> content/artworks-index.json; fi; \
+      printf '"%s"' "$name" >> content/artworks-index.json; \
+    done && \
+    echo ']' >> content/artworks-index.json
+  """

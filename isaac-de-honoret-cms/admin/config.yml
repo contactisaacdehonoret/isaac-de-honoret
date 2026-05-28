@@ -1,0 +1,73 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "artworks"
+public_folder: "/artworks"
+
+collections:
+
+  # ─── Site texts ───
+  - name: "settings"
+    label: "Textes du site / Site texts"
+    files:
+
+      - name: "hero"
+        label: "Page d'accueil / Homepage"
+        file: "content/hero.json"
+        fields:
+          - { name: "tagline_en", label: "Tagline (English)", widget: "string" }
+          - { name: "tagline_fr", label: "Tagline (Français)", widget: "string" }
+
+      - name: "about"
+        label: "À propos / About"
+        file: "content/about.json"
+        fields:
+          - { name: "title_en", label: "Title (English)", widget: "string" }
+          - { name: "title_fr", label: "Titre (Français)", widget: "string" }
+          - { name: "paragraph1_en", label: "Paragraph 1 (English)", widget: "text" }
+          - { name: "paragraph1_fr", label: "Paragraphe 1 (Français)", widget: "text" }
+          - { name: "paragraph2_en", label: "Paragraph 2 (English)", widget: "text" }
+          - { name: "paragraph2_fr", label: "Paragraphe 2 (Français)", widget: "text" }
+          - { name: "paragraph3_en", label: "Paragraph 3 (English)", widget: "text" }
+          - { name: "paragraph3_fr", label: "Paragraphe 3 (Français)", widget: "text" }
+          - { name: "paragraph4_en", label: "Paragraph 4 (English)", widget: "text" }
+          - { name: "paragraph4_fr", label: "Paragraphe 4 (Français)", widget: "text" }
+          - { name: "paragraph5_en", label: "Paragraph 5 (English)", widget: "text" }
+          - { name: "paragraph5_fr", label: "Paragraphe 5 (Français)", widget: "text" }
+
+      - name: "contact"
+        label: "Contact"
+        file: "content/contact.json"
+        fields:
+          - { name: "text_en", label: "Contact text (English)", widget: "text" }
+          - { name: "text_fr", label: "Texte de contact (Français)", widget: "text" }
+          - { name: "email", label: "Email", widget: "string" }
+
+  # ─── Artworks ───
+  - name: "artworks"
+    label: "Oeuvres / Artworks"
+    folder: "content/artworks"
+    create: true
+    slug: "{{slug}}"
+    extension: "json"
+    format: "json"
+    fields:
+      - { name: "title_en", label: "Title (English)", widget: "string" }
+      - { name: "title_fr", label: "Titre (Français)", widget: "string" }
+      - { name: "year", label: "Year / Année", widget: "number", value_type: "int" }
+      - { name: "medium_en", label: "Medium (English)", widget: "string" }
+      - { name: "medium_fr", label: "Technique (Français)", widget: "string" }
+      - { name: "dimensions", label: "Dimensions", widget: "string", hint: "Ex: 150 × 120 cm" }
+      - name: "status"
+        label: "Status / Statut"
+        widget: "select"
+        options:
+          - { label: "Available / Disponible", value: "available" }
+          - { label: "Reserved / Réservé", value: "reserved" }
+          - { label: "Sold / Vendu", value: "sold" }
+          - { label: "On request / Sur demande", value: "on_request" }
+      - { name: "image", label: "Image", widget: "image" }
+      - { name: "description_en", label: "Description (English)", widget: "text" }
+      - { name: "description_fr", label: "Description (Français)", widget: "text" }
+      - { name: "order", label: "Display order / Ordre d'affichage", widget: "number", value_type: "int", default: 0, hint: "Lower numbers appear first" }
