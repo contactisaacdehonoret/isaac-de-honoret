@@ -1,13 +1,13 @@
 {
-  "title_en": "Threshold",
-  "title_fr": "Seuil",
-  "year": 2024,
+  "description_en": "From the serie \"Les Connectés\"",
+  "dimensions": " × cm",
+  "order": 4,
+  "description_fr": "Issue de la série \"Les Connectés\"",
+  "title_en": "AXIOME",
+  "status": "available",
+  "title_fr": "AXIOME",
   "medium_en": "Mixed media on canvas",
   "medium_fr": "Technique mixte sur toile",
-  "dimensions": "120 × 90 cm",
-  "status": "available",
-  "image": "/artworks/seuil.jpg",
-  "description_en": "A vertical composition split by a single fissure running the full height of the canvas. The crack is not damage — it is the subject.",
-  "description_fr": "Une composition verticale divisée par une fissure unique parcourant toute la hauteur de la toile. La fissure n'est pas un dommage — c'est le sujet.",
-  "order": 4
+  "image": "/artworks/axiome.jpg",
+  "year": 2025
 }
