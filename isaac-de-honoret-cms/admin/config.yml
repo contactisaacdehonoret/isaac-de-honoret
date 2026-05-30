@@ -24,6 +24,7 @@ collections:
         fields:
           - { name: "title_en", label: "Title (English)", widget: "string" }
           - { name: "title_fr", label: "Titre (Français)", widget: "string" }
+          - { name: "image", label: "Photo de l'artiste / Artist photo", widget: "image", required: false }
           - { name: "paragraph1_en", label: "Paragraph 1 (English)", widget: "text" }
           - { name: "paragraph1_fr", label: "Paragraphe 1 (Français)", widget: "text" }
           - { name: "paragraph2_en", label: "Paragraph 2 (English)", widget: "text" }
