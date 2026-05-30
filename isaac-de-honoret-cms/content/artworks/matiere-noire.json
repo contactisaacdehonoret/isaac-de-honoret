@@ -1,13 +1,13 @@
 {
-  "title_en": "Dark Matter",
-  "title_fr": "Matière Noire",
-  "year": 2025,
-  "medium_en": "Charcoal, calcium carbonate, pigment on canvas",
-  "medium_fr": "Charbon, carbonate de calcium, pigment sur toile",
-  "dimensions": "220 × 180 cm",
+  "description_en": "Description",
+  "dimensions": "L x H cm",
+  "order": 6,
+  "description_fr": "Description",
+  "title_en": "APHORISME",
   "status": "on_request",
-  "image": "/artworks/matiere-noire.jpg",
-  "description_en": "The largest work in the current series. An imposing dark surface with subtle variations that only reveal themselves in person.",
-  "description_fr": "La plus grande œuvre de la série actuelle. Une surface sombre imposante aux variations subtiles qui ne se révèlent qu'en personne.",
-  "order": 6
+  "title_fr": "APHORISME",
+  "medium_en": "Mixed techniques on canvas",
+  "medium_fr": "Techniques diverses sur toile",
+  "image": "/artworks/aphorisme.jpg",
+  "year": 2025
 }
