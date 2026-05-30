@@ -1,13 +1,13 @@
 {
-  "title_en": "Erosion II",
-  "title_fr": "Érosion II",
-  "year": 2024,
-  "medium_en": "Raw pigment, calcium, gesso on wood panel",
-  "medium_fr": "Pigment brut, calcium, gesso sur panneau de bois",
-  "dimensions": "200 × 160 cm",
+  "description_en": "Coming soon",
+  "dimensions": "TBA",
+  "order": 2,
+  "description_fr": "A venir\n",
+  "title_en": "APHORISME",
   "status": "on_request",
-  "image": "/artworks/erosion-ii.jpg",
-  "description_en": "Deep charcoal surface built through successive layers of calcium and raw pigment. The texture suggests a landscape eroded over centuries, compressed into a single plane.",
-  "description_fr": "Surface charbon profond construite par couches successives de calcium et de pigment brut. La texture évoque un paysage érodé au fil des siècles, compressé en un seul plan.",
-  "order": 2
+  "title_fr": "APHORISME",
+  "medium_en": "Mixed materials on canvas",
+  "medium_fr": "Techniques diverses sur toile",
+  "image": "/artworks/absolu.jpg",
+  "year": 2024
 }
