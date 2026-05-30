@@ -1,13 +1,13 @@
 {
-  "title_en": "Without Title III",
-  "title_fr": "Sans Titre III",
-  "year": 2023,
-  "medium_en": "Calcium carbonate, marble dust, pigment on linen",
-  "medium_fr": "Carbonate de calcium, poudre de marbre, pigment sur lin",
-  "dimensions": "180 × 140 cm",
-  "status": "sold",
-  "image": "/artworks/sans-titre-iii.jpg",
-  "description_en": "An exercise in restraint. The nearly uniform grey surface reveals, upon sustained attention, a network of micro-fractures and embedded textures — matter remembering its own history.",
-  "description_fr": "Un exercice de retenue. La surface grise presque uniforme révèle, sous une attention soutenue, un réseau de micro-fractures et de textures intégrées — la matière se souvenant de sa propre histoire.",
-  "order": 3
+  "description_en": "From the serie \"Les Connectés\"",
+  "dimensions": " × cm",
+  "order": 3,
+  "description_fr": "Issue de la série \"Les Connectés\"",
+  "title_en": "Latence",
+  "status": "on_request",
+  "title_fr": "Latence",
+  "medium_en": "Mixed techniques on canvas",
+  "medium_fr": "Techniques diverses sur toile",
+  "image": "/artworks/latence.jpg",
+  "year": 2026
 }
