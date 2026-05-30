@@ -2,26 +2,25 @@ backend:
   name: git-gateway
   branch: main
 
-media_folder: "artworks"
+media_folder: "isaac-de-honoret-cms/artworks"
 public_folder: "/artworks"
 
 collections:
 
-  # ─── Site texts ───
   - name: "settings"
     label: "Textes du site / Site texts"
     files:
 
       - name: "hero"
         label: "Page d'accueil / Homepage"
-        file: "content/hero.json"
+        file: "isaac-de-honoret-cms/content/hero.json"
         fields:
           - { name: "tagline_en", label: "Tagline (English)", widget: "string" }
           - { name: "tagline_fr", label: "Tagline (Français)", widget: "string" }
 
       - name: "about"
         label: "À propos / About"
-        file: "content/about.json"
+        file: "isaac-de-honoret-cms/content/about.json"
         fields:
           - { name: "title_en", label: "Title (English)", widget: "string" }
           - { name: "title_fr", label: "Titre (Français)", widget: "string" }
@@ -38,16 +37,15 @@ collections:
 
       - name: "contact"
         label: "Contact"
-        file: "content/contact.json"
+        file: "isaac-de-honoret-cms/content/contact.json"
         fields:
           - { name: "text_en", label: "Contact text (English)", widget: "text" }
           - { name: "text_fr", label: "Texte de contact (Français)", widget: "text" }
           - { name: "email", label: "Email", widget: "string" }
 
-  # ─── Artworks ───
   - name: "artworks"
     label: "Oeuvres / Artworks"
-    folder: "content/artworks"
+    folder: "isaac-de-honoret-cms/content/artworks"
     create: true
     slug: "{{slug}}"
     extension: "json"
